@@ -51,5 +51,22 @@
         android:layout_gravity="end"
         />
 
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Жирный"
+        android:textColor="#F87"
+        android:textSize="32sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="35sp"
+        android:textColor="#BC7A18"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Курсив"/>
+
 
 </LinearLayout>
