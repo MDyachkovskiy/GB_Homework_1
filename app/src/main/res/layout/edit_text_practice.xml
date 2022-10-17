@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:gravity="center"
     android:orientation="vertical"
     android:paddingHorizontal="16dp"
     android:paddingVertical="16dp">
@@ -52,21 +52,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="16dp"
         android:hint="Придумайте пароль"
         android:inputType="textPassword"
-        android:textSize="20sp"
+        android:padding="16dp"
         android:textColorHint="#DD260F"
-        />
+        android:textSize="20sp" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="start"
-        android:paddingVertical="8dp"
         android:hint="Введите свою электронную почту"
         android:inputType="textEmailAddress"
-        android:textSize="20sp"
-        android:textColorHint="#093AEA" />
+        android:paddingVertical="16dp"
+        android:textColorHint="#093AEA"
+        android:textSize="20sp" />
 
-
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
+
