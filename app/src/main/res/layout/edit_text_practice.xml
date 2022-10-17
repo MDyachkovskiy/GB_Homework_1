@@ -58,7 +58,15 @@
         android:textSize="20sp"
         android:textColorHint="#DD260F"
         />
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:paddingVertical="8dp"
+        android:hint="Введите свою электронную почту"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:textColorHint="#093AEA" />
 
 
 </LinearLayout>
