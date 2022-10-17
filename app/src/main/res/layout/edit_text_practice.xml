@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:hint="Имя"
         android:inputType="textPersonName|textCapWords"
-        android:textSize="20sp" />
+        android:textSize="32sp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -32,8 +32,11 @@
         android:textSize="32sp" />
 
     <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номер телефона"
+        android:inputType="phone"
+        android:textSize="32sp" />
 
 
 </LinearLayout>
