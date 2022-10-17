@@ -38,5 +38,15 @@
         android:inputType="phone"
         android:textSize="32sp" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Введите число, которое вы загадали"
+        android:inputType="number"
+        android:textColor="#E31126"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
 
 </LinearLayout>
