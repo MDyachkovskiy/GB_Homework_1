@@ -68,5 +68,16 @@
         android:fontFamily="sans-serif-smallcaps"
         android:text="Курсив"/>
 
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:padding="16dp"
+        android:textOn="Включить"
+        android:textSize="20sp"
+        android:textOff="Выключить"
+        android:background="@color/purple_200"
+        />
+
 
 </LinearLayout>
