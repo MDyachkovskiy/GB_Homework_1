@@ -19,4 +19,17 @@
         android:fontFamily="sans-serif-smallcaps"
         android:textColor="#163C9C" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Пример текста EditText"
+        android:textSize="32sp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#54BA1D"
+        android:inputType="number"
+        android:ems="20"
+        android:minEms="8"/>
+
 </LinearLayout>
