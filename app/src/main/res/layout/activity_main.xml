@@ -4,32 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingHorizontal="16dp"
     android:orientation="vertical"
+    android:paddingHorizontal="16dp"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Пример редактирования TextView"
-        android:textSize="22sp"
-        android:textStyle="italic"
+        android:fontFamily="sans-serif-smallcaps"
         android:gravity="center_horizontal"
         android:paddingVertical="16dp"
-        android:fontFamily="sans-serif-smallcaps"
-        android:textColor="#163C9C" />
+        android:text="Пример редактирования TextView"
+        android:textColor="#163C9C"
+        android:textSize="22sp"
+        android:textStyle="italic" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Пример текста EditText"
-        android:textSize="32sp"
-        android:padding="20dp"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif-condensed"
-        android:textColor="#54BA1D"
-        android:inputType="number"
         android:ems="20"
-        android:minEms="8"/>
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Пример текста EditText"
+        android:inputType="number"
+        android:minEms="8"
+        android:padding="20dp"
+        android:textColor="#54BA1D"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Push the button"
+        android:textSize="20sp"
+        android:textStyle="italic" />
 
 </LinearLayout>
